@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#perfil{
+    width: 200px;
+    border-radius: 150px;
+    margin: 20px;
+    border:5px ridge rgb(23, 42, 167);
+}
+
+header{
+    background-color: rgb(31, 199, 221);
+    display: flex;
+    flex-direction: column;
+}
+
+#cabecalho{
+    display: flex;
+}
+
+#hs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    text-align: center;
+}
+#titulo{
+    color: rgb(5, 19, 109);
+    font-size: 110px;
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+#subtitulo{
+    font-size: 30px;
+    margin-top:2% ;
+    font-family: "Roboto Mono", monospace;
+}
+footer{
+    background-color:rgb(5, 19, 109) ;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2%;
+    font-family: "Roboto Mono", monospace;
+}
+#foto-home{
+    width: 20%;
+    border-radius: 10px;
+}
+#main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 0;
+    color: rgb(8, 8, 109);
+}
+
+.texto{
+    font-size: 25px;
+}
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    background-color:rgb(5, 230, 238);
+}
+#menu a{
+    font-size: larger;
+    text-decoration: none;
+    font-family: "Jaro", sans-serif;
+    padding: 1%;
+    border-radius: 5%;
+}
+#menu a:hover{
+    background-color: rgb(8, 8, 109);
+    color: antiquewhite;
+}
+
+#div-sobre{
+    margin: 5% 20%;
+    font-family: "Bebas Neue", sans-serif;
+
+    
+}
+#lista{
+    margin-top: 3%;
+
+}
+
+#lista li{
+    font-size: 19px;
+    color: rgb(6, 6, 110);
+    padding: 2%;
+}
+#max{
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+}
+#sobre{
+   display:  flex ;
+   justify-content :center ;
+   align-items: center;
+}
+#titulo-projetos{
+    font-family: "Bebas Neue", sans-serif;
+
+}
+#main-projetos{
+    text-align: center;
+    margin: 3%;
+}
+#div-fora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.377);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10px;
+}
+#miniatura{
+    width: 43%;
+    margin-right: 5%; 
+    border-radius: 9px;
+}
+#div-dentro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+#botao-projetos{
+    background-color: aqua;
+    margin: 8%;
+    padding: 3%;
+    border-radius: 20px;
+    text-decoration: none;
+    color:rgb(12, 12, 77);
+    font-size: 20px;
+    box-shadow: 3px 3px 3px gray;
+    
+}
+
+#botao-projetos:hover{
+    background-color: blue;
+    color:aliceblue;
+}
